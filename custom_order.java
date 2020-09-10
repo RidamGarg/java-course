@@ -12,7 +12,12 @@ public class custom_order {
     // TEST CODE
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
-	  
+	Scanner scn = new Scanner(System.in);
+	   int DishNum = 0 ;
+	System.out.println("Welcome to HFC Harry's Food Corner");
+	System.out.println("What's your name Sir");
+	String name = scn.nextLine();
+	 
 
 	 
     // Introduce shop and prompt user to input first name
